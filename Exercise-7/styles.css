@@ -1,0 +1,62 @@
+.content {
+    background-image: url('./bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+    height: 90vh;
+}
+
+h1 {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    background-clip: text;
+    color: transparent;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.pet-descriptions {
+    column-count: 3;
+    column-gap: 40px;
+    line-height: 30pt;
+    margin: 20px 0;
+}
+
+@keyframes playBall {
+    10% {transform: translateY(30px);}
+    20% {transform: translateY(60px)}
+    30% {transform: translate(10px,0px);}
+    40% {transform: translate(15px,10px);}
+    50% {transform: translate(15px,20px);}
+    60% {transform: translate(16px,30px);}
+    70% {transform: translate(17px,40px);}
+    80% {transform: translate(18px,50px);}
+    90% {transform: translate(19px,60px);}
+    100% {transform: translate(20px,20px);}
+}
+
+.ball {
+    animation: playBall 3s infinite ease-in;
+}
+
+.ballbox{
+    margin-left: 300%;
+}
+
+.dog{
+    margin-left: 50%;
+}
+
+.box{
+    display: flex;
+    flex-wrap: nowrap;
+}

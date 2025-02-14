@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+          .box {
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            background-color: red;
+            position: relative;
+          }
+          .normal {animation: move 2s linear infinite normal;}
+          .alternate {animation: move 2s linear infinite alternate;}
+          @keyframes move {
+            0% { left: 0; }
+            100% { left: 300px; }
+         }
+        </style>
+       </head>
+       <body>
+        <div class="box normal"></div>
+        <div class="box alternate"></div>
+       </body>
+</html>

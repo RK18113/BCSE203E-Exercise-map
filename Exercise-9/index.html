@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box {
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+        }
+
+        .seat {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            width: 50px;
+            color: grey;
+            border: 2px solid black;
+            margin: 2px;
+            border-radius: 10px;
+        } */
+
+        table {
+            width: 300px;
+            height: 300px;
+        }
+
+        .text{
+            font-weight: 600;
+        }
+
+        #result{
+            width: 200px;
+            height: 20px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- question 1 -->
+    <!-- <table id="table" border="1">
+        <tr>
+            <td>Temperature</td>
+            <td>Category</td>
+        </tr>
+    </table> -->
+
+    <!-- question 2 -->
+     <!-- <center><h1>Ticket Booking</h1></center>
+     <div class="box">
+        <div class="seat1 seat">1</div>
+        <div class="seat2 seat">2</div>
+        <div class="seat3 seat">3</div>
+        <div class="seat4 seat">4</div>
+        <div class="seat5 seat">5</div>
+        <div class="seat6 seat">6</div>
+        <div class="seat7 seat">7</div>
+        <div class="seat8 seat">8</div>
+        <div class="seat9 seat">9</div>
+        <div class="seat10 seat">10</div>
+     </div>
+     <br>
+    <center><button id="book">Book Tickets</button></center> -->
+
+    <!-- question 3 -->
+     <center><table id="table" border="1" cellpadding="5">
+        <tr style="text-align: center;">
+            <td colspan="2">
+                <span class="text">BMI Calculator</span>
+                <select name="gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div class="text">Enter your Weight:</div>
+                <span>(in pounds)</span>
+                <input type="text" name="" id="weight">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div class="text">Enter your Height:</div>
+                <span>(feet)</span>
+                <input type="text" name="" id="feet"><br><br>
+                <span>(inches)</span>
+                <input type="text" name="" id="inches">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <center><button id="btn">Calculate</button></center>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <font size="5">YOUR BMI</font>
+            </td>
+            <td>
+                <div type="text" id="result"></div>
+            </td>
+        </tr>
+     </table></center>
+
+    <script src="./index.js"></script>
+</body>
+</html>

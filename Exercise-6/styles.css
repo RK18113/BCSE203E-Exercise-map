@@ -1,0 +1,102 @@
+.tabel{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius:10px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: grey;
+}
+
+.num{
+    background-color: whitesmoke;
+    height: 70px;
+    width: 120px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 0px 5px gray;
+}
+
+.num:hover{
+    background-color: rgb(235, 129, 129);
+    scale: 105%;
+}
+
+.opt{
+    background-color: rgb(255, 220, 225);
+    height: 70px;
+    width: 120px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 0px 5px gray;
+}
+
+.opt:hover{
+    background-color: rgb(248, 114, 65);
+    scale: 105%;
+}
+
+.C{
+    background-color: coral;
+    height: 70px;
+    width: 120px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 0px 5px gray;
+    color: white;
+}
+
+.C:hover{
+    background-color: rgb(248, 114, 65);
+}
+
+.equal{
+    background-color: lightgreen;
+    height: 70px;
+    width: 120px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 0px 5px gray;
+}
+
+.one{
+    background-color: rgb(93, 71, 153);
+    height: 70px;
+    width: 120px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 0px 5px gray;
+    color: white;
+}
+
+.one:hover{
+    background-color: rgb(70, 43, 170);
+    scale: 105%;
+}
+
+
+.display{
+    background-color: lightgray;
+    height: 70px;
+    border-radius:10px;
+    box-shadow: 0px -5px gray;
+}
+
+.image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+p {
+    animation-name: name;
+    animation-duration: 10s;
+}
+
+@keyframes name{
+    0% {color: red; font-family: 'Courier New', Courier, monospace; scale: 100%; transform: ease-in-out;}
+    25% {color: yellow; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; scale: 125%;}
+    50% {color: green; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; scale: 150%;}
+    75% {color: blue; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; scale: 175%;}
+    100% {color: black; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; scale: 200%; transform: ease-in-out}
+}

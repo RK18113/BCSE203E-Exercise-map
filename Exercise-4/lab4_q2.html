@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend><b><font color="red">Personal Details</font></b></legend>
+        <form>
+            <br>
+            <label for="Name">Name &emsp;  &emsp; :</label>
+            <input type="text" name="Name"><br><br>
+
+            <label for="Password">Password &emsp;:</label>
+            <input type="password" name="Password"><br><br>
+
+            <label for="Email">Email &emsp; &emsp; :</label>
+            <input type="email" name="Email"><br><br>
+
+            <label for="Gender">Gender &emsp; &nbsp; &nbsp;:</label>
+            <input type="radio" name="Gender"><label>Male</label>
+            <input type="radio" name="Gender"><label>Female</label><br><br>
+
+            <label for="DOB">DOB &emsp; &emsp; &nbsp;:</label>
+            <input type="date" name="Password"><br><br>
+
+            <label for="Mobile#">Mobile# &emsp; &nbsp;:</label>
+            <input type="tel" name="Mobile#" pattern="[0-9]{10}">
+        </form>
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+        <legend><font color="red"><b>Educational Qualification</b></font></legend>
+        <form action="">
+            <br>
+            <label for="Degree">Degree &emsp; :</label>
+            <select name="Degree" id="">
+                <optgroup label="UG" id="">
+                    <option value="">BE</option>
+                    <option value="">BTech</option>
+                    <option value="">Bsc</option>
+                    <option value="">BA</option>
+                    <option value="">BCA</option>
+                    <option value="">BBA</option>
+                    <option value="">Others</option>
+                </optgroup>
+                <optgroup label="PG" id="">
+                    <option value="">ME</option>
+                    <option value="">MTech</option>
+                    <option value="">MSc</option>
+                    <option value="">MA</option>
+                    <option value="">MCA</option>
+                    <option value="">MBA</option>
+                    <option value="">Others</option>
+                </optgroup>
+                <optgroup label="PhD" id="">
+                    <option value="">Engineering</option>
+                    <option value="">Science</option>
+                    <option value="">Management</option>
+                    <option value="">Others</option>
+                </optgroup>
+            </select>
+            <label for="Engineering">Engineering: </label>
+            <select name="Engineering" >
+                <option value="Select group">-- Select Group --</option>
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="CIVIL">CIVIL</option>
+                <option value="MECH">MECH</option>
+            </select>
+        </form>
+    </fieldset>
+
+    <br>
+
+    <label for="Hobbies">Hobbies &emsp; &nbsp;:</label>
+    <input type="checkbox" id="Hobbies" name="Hobbies" value="PlayingChess"><label for="PlayingChess">PlayingChess</label>
+    <input type="checkbox" id="Hobbies" name="Hobbies" value="Reading Books"><label for="Reading Books">Reading Books</label>
+
+    <br><br>
+
+    <label for="Color">Favourite Color: </label>
+    <input type="color" name="Color">
+
+    <br><br>
+
+    <label for="Address"><font color="red"><b>Address</b></font></label><br><br>
+    <input type="text" size="50">
+
+    <br><br>
+
+    <label for="Attach Resume:">Attach Resume: </label>
+    <input type="file" name="Attach Resume:">
+    <button type="submit">Submit</button>
+</body>
+</html>
